@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+}
+
+header .header__left {
+    max-width: 62rem;
+    flex: 1rem;
+}
+header .header__left p {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    max-width: 55rem;
+}
+header .header__right .header__image {
+    position: relative;
+    line-height: 0;
+}
+header .header__right .header__image::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px rgb(247, 250, 248);
+    position: absolute;
+    top: -1.5rem;
+    right: -1.5rem;
+    border-radius: 0.5rem;
+    z-index: -1;
+}
+
+.header__imagem {
+    /* Seus estilos aqui */
+  }
+  
+  .miguel {
+    /* Seus estilos aqui */
+    max-width: 40rem;
+    min-width: 25rem;
+    border-radius: 2rem;
+  }
+  
+  .background {
+    /* Seus estilos aqui */
+    position: absolute;
+    top: -2rem;
+    right: -1rem;
+    z-index: -1;
+  }
